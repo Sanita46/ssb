@@ -1,276 +1,257 @@
 *{
     margin: 0;
     padding: 0;
-    color: black;
 }
 h1, h2, h3, h4, h5, h6, p, ul{
     margin: 0;
-   padding: 0;
- 
-
+    padding: 0;
 }
 header{
+    
+padding: 20px 0;
+}
+.header-wrapper{
 
-width: 90%;
+width: 80%;
+
+margin: auto;
 
 display: flex;
 
-margin-left: 5%;
-
 justify-content: space-between;
 
-padding-bottom: 30px;
-
-padding-top: 30px;
+align-items: center;
 }
 .logo{
+    width: 20%;
 
-width: 20%;
 }
 .logo img{
 
 }
-nav{
+.unsubscribe{
 
-width: 50%;
+width: 20%;
 }
-nav ul{
+.unsubscribe a{ 
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #97999b;
+}
+.banner{
+    background-image: url(../images/banner.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner h1{
 
-list-style: none;
+color: white;
+
+font-size: 40px;
+
+margin-bottom: 20px;
+}
+
+.banner p{
+
+color: white;
+
+font-size: 18px;
+
+margin-bottom: 30px;
+}
+.banner button{
+    background-color: #fb6e52;
+    padding: 14px 35px;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+    cursor:pointer;
+    transition: .4s all ease-in-out;
+}
+.banner button:hover{
+    background: #c7624e;
+}
+.banner button:hover i{
+    margin-left: 3px;
+}
+.banner button i{
+    transition: .4s all ease-in-out;
+}
+.feature-section{
+
+padding: 80px 0;
+}
+.feature-wrapper{
+
+width: 80%;
+
+margin: auto;
+}
+.feature{
 
 display: flex;
 
 justify-content: space-between;
+
+text-align: center;
 }
-nav ul li{
+.feature-item{
 
+width: 30%;
 }
-nav ul li a{
+.feature-item h3{
 
-text-decoration: none;
+margin-bottom: 10px;
 
-text-transform: uppercase;
+text-transform: capitalize;
 
-color: #626262;
-
-font-family: 'Playfair Display', serif;
-
-font-size: 16px;
+color: #66686e;
 }
-.banner{
+.feature-item p{
+
+color: #d2d3d4;
+}
+.icon{
+    
+height: 60px;
+    
+width: 60px;
+    
+background: #fb6e52;
+    
+color: white;
+    
+font-size: 35px;
+    
+line-height: 60px;
+    
+border-radius: 50%;
+    
+margin: auto;
+    
+margin-bottom: 20px;
+}
+.qoute{
+
+margin-top: 40px;
+}
+.qoute h1{
+    
+text-align: center;
+    
+font-style: italic;
+    
+font-weight: 200;
+    
+color: #fda193;
+    
+text-transform: capitalize;
+}
+.image{
 
 width: 90%;
 
-margin-left: 5%;
-
-/* padding-bottom: 60px; */
-}
-.banner img{
-    width: 100%;
-    
-}
-.photodiary{
-
-width: 80%;
-
-margin: auto;
-
-padding: 60px 0px;
-}
-.photodiary h5{
-    
-color: #b4ad9e;
-    
-text-transform: uppercase;
-    
-font-size: 14px;
-    
-margin-bottom: 20px;
-    
-font-family: 'Ubuntu', sans-serif;
-    
-font-weight: 300;
-}
-.photodiary h1{
-    
-color: #626262;
-    
-font-size: 30px;
-    
-margin-bottom: 20px;
-font-family: 'Playfair Display', serif;
-}
-.photodiary p{
-    
-color: #626262;
-    
-margin-bottom: 20px;
-    
-font-family: 'Playfair Display', serif;
-    
-line-height: 24px;
-}
-.photodiary h6{
-    
-color: #b4ad9e;
-    
-font-size: 14px;
-    
-text-transform: uppercase;
-    
-font-family: 'Ubuntu', sans-serif;
-    
-font-weight: 300;
-}
-.feature-sction{
-
-width: 80%;
-
-margin: auto;
-
-padding: 100px 0px;
-
 display: flex;
 
 justify-content: space-between;
 
-flex-wrap: wrap;
-}
-.iteam{
+margin: auto;
 
-width: 48%;
-
-margin-bottom: 100px;
+padding-bottom: 50px;
 }
-.iteam img{
-    
+.cool-image{
+
+width: 30%;
+}
+.cool-image img{
+
 width: 100%;
-    
-margin-bottom: 20px;
 }
-.iteam h5{
-    
-color: #b4ad9e;
-    
-font-size: 14px;
-    
+.cool-image h3{
+
+padding: 10px 0;
+
+text-align: center;
+
+text-transform: capitalize;
+
+font-weight: 600;
+}
+.cool-image p{
+
+text-align: center;
+
+color: #d9dada;
+
+text-transform: capitalize;
+
+font-size: 16px;
+}
+.blog-section{
+
+background-color: #f9f9f9;
+}
+.blog-wrapper{
+
+}
+.web{
+
+text-align: center;
+
+padding: 50px 0;
+
 text-transform: uppercase;
-    
-font-family: 'Ubuntu', sans-serif;
-    
-font-weight: 300;
-    
-margin-bottom: 20px;
-}
-.iteam h1{
-    
-color: #626262;
-    
-font-size: 30px;
-    
-margin-bottom: 20px;
-    
-font-family: 'Playfair Display', serif;
-}
-.iteam p{
-    
-color: #626262;
-    
-margin-bottom: 20px;
-    
-font-family: 'Playfair Display', serif;
-    
-line-height: 24px;
-}
-.singup-section{
 
-background: #f0f0f0;
-
-padding: 100px 0px;
+font-weight: 200;
 }
-.form{
+.web h1{
 
-width: 20%;
+}
+.blog{
+
+width: 90%;
 
 margin: auto;
 
-position: relative;
+display: flex;
+
+justify-content: space-between;
 }
-.form h1{
+.blog-item{
 
-color: #626262;
-
-font-size: 24px;
-
-margin-bottom: 50px;
-
-font-family: 'Playfair Display', serif;
-
-font-weight: 500;
+width: 45%;
 }
-.form input{
-
-background: transparent;
-
-border: none;
-
-border-bottom: 1px solid #000;
+.blog-item img{
 
 width: 100%;
-padding-bottom: 5px;
 }
-.form input::placeholder{
-    color: #626262;
-    font-family: 'Playfair Display', serif;
+.blog-item h3{
 
+padding: 15px 0;
 
+color: #fb7a62;
 }
-.form input:focus{
-    outline: none;
-}
-.icon{
+.blog-item p{
 
-position: absolute;
+color: #d9dada;
 
-bottom: 0;
-
-right: 0;
-}
-.icon img{
-    
-}
-.second-feature{
-    padding: 100px 0;
-    
-}
- .second-feature-iteam{
-
-    margin-bottom: 0;
-
- }
- .loadmore{
-    padding-bottom: 100px;
-    text-align: center;
- }
- .loadmore button{
-
-background: transparent;
-
-padding: 15px 25px;
-color: #626262;
-font-family: 'Playfair Display', serif;
-
-font-size: 16px;
-cursor: pointer;
-
+padding-bottom: 50px;
 }
 footer{
 
-background: #f0f0f0;
-
-padding: 50px 0;
+background-color: #292c34;
 }
-.footer-contant{
+.footer-content{
 
 width: 80%;
 
@@ -279,35 +260,28 @@ margin: auto;
 display: flex;
 
 justify-content: space-between;
-}
-.terms{
 
+padding: 30px 0;
+
+align-items: center;
 }
-.terms ul{
-    
-list-style: none;
-    
-display: flex;
+.terms{}
+.terms img{
 }
-.terms ul li{
-    
-margin-right: 15px;
-}
-.terms ul li a{
-    
-color: #626262;
-    
-text-transform: capitalize;
-    
-text-decoration: none;
+.terms a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #4f5158;
+    margin-left: 15px;
+    align-items: center;
 }
 .social-icon{
-    
 }
 .social-icon ul{
-    
+
 list-style: none;
-    
+
 display: flex;
 }
 .social-icon ul li{
@@ -315,28 +289,10 @@ display: flex;
 margin-left: 15px;
 }
 .social-icon ul li a{
-    
+
 text-decoration: none;
-    
-color: #626262;
+
+color: #ffffff;
+
+margin-right: 35px;
 }
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-   
-
-
-
-
-   
